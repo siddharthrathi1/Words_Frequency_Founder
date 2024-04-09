@@ -1,0 +1,30 @@
+{
+  "name": "words-frequency-finder",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A text summarizer npm package",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+   
+  ],
+  "author": "Siddharth Rathi",
+  "license": "MIT",
+  "dependencies": {
+    "natural": "^7.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/node": "^20.12.6",
+    "rollup": "^4.14.1",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.4"
+  }
+}
