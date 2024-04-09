@@ -1,6 +1,6 @@
 {
   "name": "words-frequency-finder",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "type": "module",
   "description": "A text summarizer npm package",
   "main": "dist/index.js",
